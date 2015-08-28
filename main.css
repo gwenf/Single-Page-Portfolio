@@ -1,0 +1,301 @@
+
+
+/*
+nav select {
+  display: none;
+}
+
+
+
+@media (max-width: 500px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}
+*/
+body {
+	margin: 0px;
+	padding: 0px;
+	-webkit-margin: 0px;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: dodgerblue;
+}
+
+.content-link:hover {
+	text-decoration: underline;
+}
+
+
+/*styling navigation*/
+
+#nav {
+	position: fixed;
+	background-color: deepskyblue;
+	margin: none;
+	padding: none;
+	height: 150px;
+	width: 100%;
+	z-index: 12;
+	text-align: right;
+	border-bottom: 4px solid #aaa;
+}
+
+#nav li{
+	display: inline;
+	text-decoration: none;
+	font-size: 1.4em;
+	padding: 10px;
+	line-height: 110px;
+	vertical-align: middle;
+	margin-right: 10px;
+	
+}
+#nav li:last-child {
+	margin-right: 30px;
+}
+
+#nav li a {
+	color: white;
+	font-weight: 100;
+	text-align: right;
+	font-family: sans-serif;
+
+  vertical-align: middle;
+  display: inline-block;
+  line-height: normal;
+}
+
+#nav .logo {
+	text-align: left;
+}
+.logo img {
+	width: 290px;
+}
+.alignLeft {
+	float: left;
+	max-width: 200px;
+}
+
+#nav li a:hover{
+	color: black;
+	text-shadow: 0px 0px 15px #222;
+}
+
+
+
+
+/*home page styling*/
+
+/*
+img .profile {
+	box-shadow: 1px 1px 10px #333;
+}
+*/
+
+.profile {
+	border-radius: 50%;
+	width: 100%;
+	border: 1px solid #aaa;
+}
+.center {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	top: 195px;
+	width: 14%;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 1.8em;
+}
+h2 {
+	font-weight: 200;
+}
+
+h1, h2 {
+	text-align: center;
+	display: block;
+}
+
+.centerText {
+	margin: 10px auto;
+	width: 68%;
+	position: relative;
+	top: 200px;
+}
+
+/*
+.arrow {
+	position: relative;
+	
+	
+	top: 200px;
+	
+}
+*/
+.arrow img {
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.arrow a img:hover {
+	width: 34%;
+}
+
+
+
+
+
+/*content with gray background when you scroll down on home page*/
+
+.gray-background {
+	position: relative;
+	top: 225px;
+	width: 100%;
+	height: 880px;
+	background-color: #ddd;
+}
+.gray-background h2 {
+	padding: 40px;
+	font-size: 4em;
+	font-weight: 400;
+  color: white;
+	text-shadow: 0px 0px 15px #aaa;
+}
+.gray-background h2 a {
+	color: white;
+}
+.gray-background h2{
+/*	color: black;*/
+	text-shadow: 0px 0px 15px #222;
+}
+.pics_holder {
+	width: 98%;
+	margin: 4px auto;
+}
+.portfolio_pic {
+	width:33%;
+	float: left;
+}
+.portfolio_pic img {
+	width: 350px;
+	display: block;
+	margin: 0 auto;
+	border: 4px solid white;
+	border-radius: 5px;
+}
+.portfolio_pic:nth-child(2) img {
+	border: 4px solid black;
+}
+.portfolio_pic h4 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+.portfolio_pic:nth-child(6) img {
+  border: 4px solid black;
+  width: 280px;
+}
+
+
+/*Third section on home page for profile links*/
+
+.skills {
+	clear: both;
+	position: relative;
+	display: block;
+	top: 210px;
+	width: 100%;
+	height: 400px;
+}
+.skills h2 {
+	font-size: 4em;
+	font-weight: 400;
+	text-shadow: 0px 0px 15px #aaa;
+	padding: 40px;
+}
+
+.skill {
+	width: 25%;
+	float: left;
+	margin-bottom: 60px;
+	
+}
+
+.skill img {
+	width: 200px;
+	height: 220px;
+	display: block;
+	margin: 0 auto;
+}
+
+.skill:nth-child(8) img {
+	width: 120px;
+}
+
+.skill:nth-child(11) img,.skill:nth-child(12) img {
+	height: 100px;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+/*contact page styling*/
+#contact-container {
+  clear: both;
+  position: relative;
+  top: 200px;
+  height: 500px;
+  background-color: lightgray;
+}
+#contact-container h2 {
+  padding: 50px 0 20px;
+  font-size: 4em;
+	font-weight: 400;
+  color: white;
+	text-shadow: 0px 0px 10px #222;
+}
+#contact-container p {
+  text-align:center;
+}
+#contact-container span:hover {
+  font-style: italic;
+  cursor: pointer;
+}
+
+
+/*footer styling*/
+
+footer {
+	clear: both;
+	width: 100%;
+	height: 150px;
+	background-color: deepskyblue;
+	position: relative;
+	display: block;
+	top: 160px;
+	border-top: 4px solid #aaa;
+}
+.footerWrapper {
+	width: 25%;
+	margin: 20px auto;
+}
+.online-profile {
+	width: 25%;
+	
+	float:left;
+	margin: 0 auto;
+}
+.online-profile img {
+	width: 60px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px;
+}
