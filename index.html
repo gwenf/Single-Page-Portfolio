@@ -2,9 +2,10 @@
 
 <html>
 <head>
-    
-    <title>Gwen Faraday</title>
     <meta charset="8">
+    <title>Gwen Faraday</title>
+    
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="main.css">
 		<script src='jquery-1.11.3.min.js'></script>
 		<script src='script.js'></script>
@@ -13,25 +14,39 @@
 
 <body>
 	<div class='navTop'>
-   <nav id="nav" role="navigation">
+   <nav id="nav-main" role="navigation">
     <ul>
 			<li class='logo alignLeft'><a href='#first_section'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/Drawing%201_zpsuwig6sfo.png' alt='Gwen Faraday logo'></a></li>
 			
-        
+    <span id='hide-on-mobile'>
         <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#skills" >Skills</a></li>
 				<li><a href='http://gwenfaraday.com/LearningCode/' target='_blank'>Blog</a></li>
 				<li><a href='#contact-container'>Contact</a></li>
+			</span>
     </ul>
 		</nav>
 	</div>
+	
+<!--	mobile navigation-->
+	<ul id='nav'>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#skills" >Skills</a></li>
+			<li><a href='http://gwenfaraday.com/LearningCode/' target='_blank'>Blog</a></li>
+			<li><a href='#contact-container'>Contact</a></li>
+   </ul>
+	
+	
+	
+	
+	
 	
 	<div id='first_section'>
 		<div class='center'><img class='profile' src='http://i1378.photobucket.com/albums/ah93/fuze365/gwen_zpss7swuet1.jpg' alt='my profile image'></div>
     
     <div class='centerText'>
 			<h1>Hi! My name is Gwen.</h1>
-			<h2>I am a web developer specializing in full stack javascript. I love to code, blog, and teach. Check out my portfolio projects and skillset. I'd love to hear from you: <a class='content-link' href='#contact-container'>Get in touch!</a></h2> 
+			<h2>I am a web developer specializing in full stack javascript. I love to code, blog, and teach. Check out my portfolio projects and skillset. I'd love to hear from you: <a class='content-link' href='#contact-container'><span class='block'>Get in touch!</span></a></h2> 
 		</div>
 		<div class='arrow center'>
 			<a href='#portfolio'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/down-arrow_zps9i0libio.png' alt='arrow images to scroll down page'></a>
@@ -119,6 +134,16 @@
 	</div>
 		
 	</footer>
+	
+	<script>// <![CDATA[
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-66640565-1', 'auto');
+ga('send', 'pageview');
+// ]]></script>
 	
 </body>
 

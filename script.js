@@ -11,4 +11,19 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
+	
+	
+	
+//responsive navigation menu
+	
+	$("#nav").addClass("js").before('<div id="menu">&#9776;</div>').css('z-index','20').css('float','right');
+	$("#menu").click(function(){
+		$("#nav").toggle();
+	});
+	$(window).resize(function(){
+		if(window.innerWidth > 768) {
+			$("#nav").removeAttr("style");
+		}
+	});
+	
 });
