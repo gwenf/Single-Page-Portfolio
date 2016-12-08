@@ -21,23 +21,33 @@ a {
 #nav-main {
 	position: fixed;
 	background-color: deepskyblue;
-	height: 150px;
+	height: 100px;
 	width: 100%;
 	z-index: 12;
 	text-align: right;
 	border-bottom: 4px solid #aaa;
 	top: 0;
 }
+#nav-main ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+}
+#hide-on-mobile {
+	display: flex;
+	align-items: center;
+}
 
 #nav-main li{
-	display: inline;
+	/*display: inline;*/
 	text-decoration: none;
 	font-size: 1.4em;
 	padding: 10px;
-	line-height: 110px;
-	vertical-align: middle;
+	list-style: none;
+	/*line-height: 60px;
+	vertical-align: middle;*/
 	margin-right: 10px;
-	
 }
 #nav-main li:last-child {
 	margin-right: 30px;
@@ -67,7 +77,7 @@ a {
 
 #nav-main li a:hover{
 	color: black;
-	text-shadow: 0 0 15px #222;
+	text-shadow: 0 0 4px #222;
 }
 
 
@@ -114,15 +124,6 @@ h1, h2 {
 	top: 200px;
 }
 
-/*
-.arrow {
-	position: relative;
-	
-	
-	top: 200px;
-	
-}
-*/
 .arrow img {
 	display: block;
 	width: 30%;
@@ -210,7 +211,6 @@ h1, h2 {
 	width: 25%;
 	float: left;
 	margin-bottom: 60px;
-	
 }
 
 .skill img {
@@ -275,7 +275,6 @@ footer {
 }
 .online-profile {
 	width: 25%;
-	
 	float:left;
 	margin: 0 auto;
 }
@@ -313,7 +312,7 @@ footer {
 	li:last-child {
 		border-right:none;
 	}
-	
+
 	li a {
 		display: block;
 		width:80%;
@@ -321,7 +320,7 @@ footer {
 		font-size:1.35em;
 		text-decoration: none;
 	}
-	
+
 	.logo img {
 	width: 200px;
 	}
@@ -333,8 +332,8 @@ footer {
 	border-bottom: 4px solid #aaa;
 	top: 0;
 	}
-	
-	
+
+
 /*	styles first section of page on mobile*/
 	.center {
 		top: 150px;
@@ -353,8 +352,8 @@ footer {
 		display: block;
 		padding-top: 7px;
 	}
-	
-	
+
+
 /*	Portfolio Styles*/
 	.portfolio_pic {
 		width:100%;
@@ -364,14 +363,14 @@ footer {
 	.gray-background {
 		height: 1640px;
 	}
-	
-	
+
+
 /*	skillset styles*/
 	.skill {
 	width: 50%;
 	float: left;
 	margin-bottom: 30px;
-	
+
 }
 
 .skill img {
@@ -384,7 +383,7 @@ footer {
 		width: 50%;
 		height: 190px;
 	}
-	
+
 	.skill:nth-child(11) {
 		width: 51%;
 		float: left;
@@ -396,8 +395,8 @@ footer {
 		width: 49%;
 		margin-top: -20px;
 	}
-	
-	
+
+
 /*	contact styles*/
 	#contact-container {
 		top: 200px;
@@ -414,8 +413,8 @@ footer {
 		text-align:center;
 		padding-top: 10px;
 	}
-	
-	
+
+
 /*	footer styling*/
 	footer h2 {
 		padding-top: 10px;
@@ -435,7 +434,6 @@ footer {
 			width:1.4em;
 			display: block;
 			position: fixed;
-			
 			font-size:3.35em;
 			text-align: center;
 			z-index: 100;

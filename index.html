@@ -4,111 +4,114 @@
 <head>
     <meta charset="8">
     <title>Gwen Faraday</title>
-    
-		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <link rel="stylesheet" href="main.css">
-		<script src='jquery-1.11.3.min.js'></script>
-		<script src='script.js'></script>
 </head>
 
-
+<!-- TODO: add a section showing work history and volunteer stuff here -->
 <body>
 	<div class='navTop'>
    <nav id="nav-main" role="navigation">
     <ul>
 			<li class='logo alignLeft'><a href='#first_section'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/Drawing%201_zpsuwig6sfo.png' alt='Gwen Faraday logo'></a></li>
-			
-    <span id='hide-on-mobile'>
+
+    <div id='hide-on-mobile'>
         <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#skills" >Skills</a></li>
 				<li><a href='http://gwenfaraday.com/LearningCode/' target='_blank'>Blog</a></li>
 				<li><a href='#contact-container'>Contact</a></li>
-			</span>
+			</div>
     </ul>
 		</nav>
 	</div>
-	
-<!--	mobile navigation-->
+
+<!--	mobile navigation TODO: fix mobile nav here -->
 	<ul id='nav'>
       <li><a href="#portfolio">Portfolio</a></li>
       <li><a href="#skills" >Skills</a></li>
 			<li><a href='http://gwenfaraday.com/LearningCode/' target='_blank'>Blog</a></li>
 			<li><a href='#contact-container'>Contact</a></li>
    </ul>
-	
-	
-	
-	
-	
-	
+
 	<div id='first_section'>
 		<div class='center'><img class='profile' src='http://i1378.photobucket.com/albums/ah93/fuze365/gwen_zpss7swuet1.jpg' alt='my profile image'></div>
-    
+
     <div class='centerText'>
 			<h1>Hi! My name is Gwen.</h1>
-			<h2>I am a web developer specializing in full stack javascript. I love to code, blog, and teach. Check out my portfolio projects and skillset. I'd love to hear from you: <a class='content-link' href='#contact-container'><span class='block'>Get in touch!</span></a></h2> 
+			<h2>I am a web developer specializing in full stack javascript. Check out my portfolio projects and skillset. I'd love to hear from you: <a class='content-link' href='#contact-container'><span class='block'>Get in touch!</span></a></h2>
 		</div>
 		<div class='arrow center'>
 			<a href='#portfolio'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/down-arrow_zps9i0libio.png' alt='arrow images to scroll down page'></a>
 		</div>
 </div>
-	
+
 	<div id='portfolio' class='gray-background'>
-		<h2>Portfolio</h2>
+	<!-- TODO: add amEco, fcc-indy, work stuff, regex breakfast, api stuff, educational projects -->
+		<h2>Personal Projects</h2>
 <!--		contains all 3 portfolio screenshots and links-->
 		<div class='pics_holder'>
 			<div class='portfolio_pic'>
+				<img src='http://i1378.photobucket.com/albums/ah93/fuze365/calc_zpsslbtvzji.png' alt='Calculator'>
+				<h4>amEco</h4>
+				<p>React/Redux, React Native, AWS, Node
+			</div>
+			<div class='portfolio_pic'>
 				<img src='http://i1378.photobucket.com/albums/ah93/fuze365/fccBlogFeed_zpspajsqebm.png' alt='Free Code Camp API live blog feed'>
-				<h4>Live Blog Feed Viewer - Free Code Camp</h4>
+				<h4>Regex Breakfast</h4>
+				<p>Javascript, jQuery</p>
 			</div>
 			<div class='portfolio_pic'>
 				<img src='http://i1378.photobucket.com/albums/ah93/fuze365/twitchTVstreams_zpskqo9ffti.png' alt='twitch TV live streaming channels'>
-				<h4>Twitch.TV Live Stream/Search APP</h4>
+				<h4>Free Code Camp Indy</h4>
+				<p>HTML, CSS, Javascript</p>
 			</div>
 			<div class='portfolio_pic'>
 				<img src='http://i1378.photobucket.com/albums/ah93/fuze365/Pomodoro_zpsaume2djv.png' alt='Pomodoro clock'>
-				<h4>Pomodoro Productivity Clock/Timer</h4>
+				<h4>Free Code Camp Projects</h4>
 			</div>
-      <div class='portfolio_pic'>
+		    <div class='portfolio_pic'>
 				<img src='http://i1378.photobucket.com/albums/ah93/fuze365/wikiSearch_zpsq1szhufs.png' alt='Free Code Camp API live blog feed'>
-				<h4>Wikipedia Live Search App</h4>
+				<h4>API Projects</h4>
 			</div>
 			<div class='portfolio_pic'>
 				<img src='http://i1378.photobucket.com/albums/ah93/fuze365/weather_zpsmzqgxybz.png' alt='twitch TV live streaming channels'>
-				<h4>Geolocation Weather Forcast</h4>
-			</div>
-			<div class='portfolio_pic'>
-				<img src='http://i1378.photobucket.com/albums/ah93/fuze365/calc_zpsslbtvzji.png' alt='Calculator'>
-				<h4>Javascript Calculator GUI</h4>
+				<h4>Ruby/Python Stuff</h4>
 			</div>
 		</div>
-	</div>  
-	
+	</div>
+
 	<div id='skills' class='skills'>
 		<h2>Skillset</h2>
-		
+		<!-- TODO: change this to flexbox layout -->
+
+<!-- TODO: split this into build tools, languages, frameworks, and other -->
+		<!-- Javascript, jQuery, React, React Native, Cordova, PhoneGap, AWS, Node, Python, Ruby, PHP, AMPScript, Knockout -->
+
 <!--		first row-->
 		<div class='skill'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/HTML5_logo_and_wordmark.svg_zpsu5ybebej.png'></div>
 		<div class='skill'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/logo_CSS3_zpsrz7usln6.png'></div>
 		<div class='skill'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/jQurery_zpsi8gcfor9.gif'></div>
 		<div class='skill'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/Javascript_logo_unofficial-300x300_zpsi4pxqcab.png'></div>
-		
+
 <!--		second row-->
 		<div class='skill'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/angularjs_zpsmu5k1ysq.png'></div>
 		<div class='skill'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/nodejs-logo_zpsla5z9t1x.png'></div>
 		<div class='skill'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/gulp-logo_zpsavuxbecx.png'></div>
 		<div class='skill'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/mongodb_zpsczirzxm3.png'></div>
-		
+
 <!--		third row-->
 		<div class='skill'></div>
 		<div class='skill'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/bootstrap%201_zpsl0serwvu.png'></div>
 		<div class='skill'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/expresslogo_zpsleadh44t.png'></div>
-		
+
 	</div>
-  
+
  <!--section for contact form-->
 <div id='contact-container'>
- 
+<!-- TODO: add a google form here -->
+
   <h2> Get in Touch: </h2>
   <p> Email: <span><a href="mailto:gwenfaraday@gmail.com">gwenfaraday@gmail.com</a></span> </p>
   <p> LinkedIn: <span><a href="https://www.linkedin.com/pub/gwendolyn-zepeda/24/7b8/1b5">https://www.linkedin.com</a></span> </p>
@@ -116,25 +119,28 @@
   <p> GitHub: <span><a href="https://github.com/gwenf">https://github.com/gwenf</a></span> </p>
   <p> Coding Blog: <span><a href="http://gwenfaraday.com/LearningCode/">http://gwenfaraday.com/LearningCode</a></span> </p>
 
+<!-- TODO: add Certifications section, leave commented out until I pass -->
 
-  
 </div>
-	
+
 	<footer>
-		
+
 		<h2>&copy;2015 GwenFaraday.com</h2>
-		
+
 	<div class='footerWrapper'>
-		
+
 		<div class='online-profile'><a href='https://www.linkedin.com/pub/gwendolyn-zepeda/24/7b8/1b5'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/linkedIn_zpsal0ynaxt.png' alt='linkedIn icon'></a>	</div>
 		<div class='online-profile'><a href='https://github.com/gwenf'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/Github-icon_zpshdx1wtet.png' alt='github icon'></a>	</div>
 		<div class='online-profile'><a href='http://codepen.io/gwenf/'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/codepen_zpsdinasx68.png' alt='codepen icon'></a>	</div>
 		<div class='online-profile'><a href='http://www.freecodecamp.com/fuze365'><img src='http://i1378.photobucket.com/albums/ah93/fuze365/freecodecamp_zpshkmjil2k.png' alt='free code camp icon'></a>	</div>
-		
+
 	</div>
-		
+
 	</footer>
-	
+
+	<script src='jquery-1.11.3.min.js'></script>
+	<script src='script.js'></script>
+
 	<script>// <![CDATA[
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -144,7 +150,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-66640565-1', 'auto');
 ga('send', 'pageview');
 // ]]></script>
-	
+
 </body>
 
 </html>
